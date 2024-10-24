@@ -29,7 +29,7 @@ setuptools.setup(
     description="An extreme classification library for python",
     long_description_content_type="text/markdown",
     url="https://github.com/kunaldahiya/xclib",
-    install_requires=['numpy<2.0', 'nmslib', 'scikit-learn', 'numba', 'fasttext'],
+    install_requires=['numpy<2.0', 'nmslib', 'scikit-learn', 'numba', 'fasttext', 'hnswlib'],
     packages=setuptools.find_packages(),
     # package_data={'xclib': ["classifier/so/*.so"]},
     ext_modules=cythonize(extensions),
